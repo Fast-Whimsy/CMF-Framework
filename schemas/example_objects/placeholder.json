@@ -1,1 +1,10 @@
-{}
+{
+  "id": "example-object-001",
+  "type": "node",
+  "metadata": {
+    "name": "Example CMF Object",
+    "version": "0.1.0",
+    "description": "A minimal example object demonstrating the CMF schema structure."
+  },
+  "structure": {}
+}
