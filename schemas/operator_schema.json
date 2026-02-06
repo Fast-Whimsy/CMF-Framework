@@ -1,34 +1,41 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Coherence Mapping Framework (CMF) Schema",
+  "title": "CMF Operator Schema",
   "type": "object",
 
   "properties": {
     "id": {
       "type": "string",
-      "description": "Unique identifier for this CMF object."
+      "description": "Unique identifier for this operator."
     },
 
-    "type": {
+    "operator_type": {
       "type": "string",
-      "description": "The CMF object type (e.g., node, operator, field, mapping)."
+      "description": "The category or class of operator."
+    },
+
+    "inputs": {
+      "type": "array",
+      "description": "List of required input fields for this operator.",
+      "items": { "type": "string" }
+    },
+
+    "outputs": {
+      "type": "array",
+      "description": "List of output fields produced by this operator.",
+      "items": { "type": "string" }
     },
 
     "metadata": {
       "type": "object",
-      "description": "Human-readable metadata about the object.",
+      "description": "Human-readable metadata about the operator.",
       "properties": {
         "name": { "type": "string" },
         "version": { "type": "string" },
         "description": { "type": "string" }
       }
-    },
-
-    "structure": {
-      "type": "object",
-      "description": "The structural content of the CMF object. This will be expanded later."
     }
   },
 
-  "required": ["id", "type"]
+  "required": ["id", "operator_type"]
 }
