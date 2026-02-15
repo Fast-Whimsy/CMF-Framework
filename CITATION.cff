@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use CMF-Framework in your work, please cite it as below."
+title: "CMF-Framework: Coherence Mirror Framework (Node)"
+abstract: >
+  The CMF-Framework defines the Coherence Mirror Framework, providing the core
+  structures, operators, and schemas used to analyze coherence across empirical,
+  conceptual, and axiological domains, and serving as a node in the ECM lineage.
+authors:
+  - family-names: Harrell
+    given-names: Martha Nanette
+    orcid: "https://orcid.org/0000-0003-0800-5802"
+repository-code: "https://github.com/Fast-Whimsy/CMF-Framework"
+keywords:
+  - coherence
+  - Coherence Mirror Framework
+  - CMF
+  - operators
+  - schemas
+date-released: 2026-02-15
+license: "MIT"
