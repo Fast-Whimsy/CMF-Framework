@@ -60,7 +60,7 @@ ORCID: https://orcid.org/0000-0003-0800-5802
 
 \## License
 
-To be determined.
+MIT
 
 
 
